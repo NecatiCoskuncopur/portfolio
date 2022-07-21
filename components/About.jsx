@@ -10,7 +10,7 @@ import Button from './Button';
 
 export default function About({ image, header, title, description, link }) {
   return (
-    <Container as={motion.div} variants={containerVariants} initial={containerVariants.offscreen} whileInView={containerVariants.onscreen} >
+    <Container id='about' as={motion.div} variants={containerVariants} initial={containerVariants.offscreen} whileInView={containerVariants.onscreen} >
       <Card>
         <Image src={image} width={620} height={590} alt='mysterious man image' />
       </Card>

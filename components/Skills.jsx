@@ -11,7 +11,7 @@ import Button from './Button';
 
 export default function Skills({ header, title, description, skills }) {
 	return (
-		<Container as={motion.div} variants={containerVariants} initial='offscreen' whileInView="onscreen">
+		<Container id='skills' as={motion.div} variants={containerVariants} initial='offscreen' whileInView="onscreen">
 			<Card>
 				<Content header={header} title={title} description={description} />
 				<Button href='mailto:necaticoskuncopur@gmail.com' text='Mail me' />

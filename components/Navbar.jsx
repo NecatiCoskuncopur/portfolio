@@ -23,37 +23,33 @@ export default function Navbar({ items }) {
           items.map((item, index) => (
             <ListItem
               key={index}
-              css={{
-                display: 'inline',
-                mr: '30px',
-                fontWeight: '$3',
-                color: '$color5',
-                transition: '0.2s color ease-in',
-                cursor: 'pointer',
-                position: 'relative',
-                '&::before': {
-                  content: item.name,
-                  transition: 'all 0.5s ease-in-out',
-                  color: '$primary',
-                  position: 'absolute',
-                  top: 0,
-                  bottom: 0,
-                  left: 0,
-                  right: 0,
-                  width: 0,
-                  overflow: 'hidden',
-                },
-                '&:hover': {
-                  '&::before': {
-                    width: '100%',
-                  }
-                },
-                '@bp6': {
-                  display: 'none'
-                }
-              }}
+
             >
-              <Link href={item.href}><a>{item.name}</a></Link></ListItem>
+              <Link href={item.href}><Anchor
+                css={{
+                  display: 'inline',
+                  '&::before': {
+                    content: item.name,
+                    transition: 'all 0.5s ease-in-out',
+                    color: '$primary',
+                    position: 'absolute',
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+                    width: 0,
+                    overflow: 'hidden',
+                  },
+                  '&:hover': {
+                    '&::before': {
+                      width: '100%',
+                    }
+                  },
+                  '@bp6': {
+                    display: 'none'
+                  }
+                }}
+              >{item.name}</Anchor></Link></ListItem>
           ))
         }
       </List>
@@ -112,9 +108,16 @@ const List = styled('ul', {
 });
 
 
-const ListItem = styled('li', {});
+const ListItem = styled('li', {
+  mr: '30px',
+  fontWeight: '$3',
+  color: '$color5',
+  transition: '0.2s color ease-in',
+  cursor: 'pointer',
+  position: 'relative',
+});
 
-
+const Anchor = styled('a', {})
 const Hamburger = styled('div', {
   display: 'none',
   width: '25px',
