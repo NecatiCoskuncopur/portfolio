@@ -35,7 +35,7 @@ export const data =
     title: 'About Me',
     description: 'Hi! I’m Necati Coskuncopur, and I’m a designer & developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.',
     image: '/img/mysterious-man.svg',
-    link: 'https://drive.google.com/file/d/1J6nOo2EF17kFHUzxteRpvwzlq3sfzGkA/view?usp=sharing'
+    link: 'https://drive.google.com/file/d/1GiMsqVDuBqXCFs-i8WASvRzNUnrdOOpd/view?usp=sharing'
   },
 
   widget: [
