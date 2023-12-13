@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+## ➡️ [Live Demo](https://necaticopur.vercel.app/)
 
-First, run the development server:
+## :computer: Setup
 
-```bash
-npm run dev
-# or
-yarn dev
+1. Clone the repository and install its features.
+
+```
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Use the project locally (localhost).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+yarn start
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## :fire: Technologies and Libraries
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+:heavy_check_mark: [Next.js](https://nextjs.org/) <br />
+:heavy_check_mark: React Hooks <br />
+:heavy_check_mark: [React Icons](https://react-icons.github.io/react-icons/) <br />
+:heavy_check_mark: [Framer Motion](https://www.framer.com/motion/) <br />
+:heavy_check_mark: [Stitches](https://stitches.dev/) <br />
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![intro](https://github.com/NecatiCoskuncopur/portfolio/assets/85507269/90902cbc-eb83-4d6b-b6fd-3bef55b5b8b1)
+![about-skills](https://github.com/NecatiCoskuncopur/portfolio/assets/85507269/d9d5b0c9-d545-4711-803f-30ca8e0ed79b)
+![works](https://github.com/NecatiCoskuncopur/portfolio/assets/85507269/a47105dc-51ee-4ad2-8c29-37e30c2c10e9)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
